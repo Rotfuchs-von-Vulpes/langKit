@@ -1,3 +1,3 @@
-module lang_kit
+module langKit
 
 go 1.25.0
