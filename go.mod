@@ -1,3 +1,3 @@
-module github.com/rotfuchs-von-vulpes/langKit
+module github.com/Rotfuchs-von-Vulpes/langKit
 
 go 1.25.0
