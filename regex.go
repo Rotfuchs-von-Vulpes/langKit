@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"slices"
 	"strings"
+	"unicode"
 )
 
 type StateIn struct {
@@ -229,7 +230,7 @@ func meta(r, meta rune) bool {
 			return true
 		}
 	case 'w':
-		if r >= 'a' && r <= 'z' || r >= 'A' && r <= 'Z' {
+		if unicode.IsLetter(r) {
 			return true
 		}
 	case 'a':
